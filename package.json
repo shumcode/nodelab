@@ -1,0 +1,22 @@
+{
+  "name": "nodelab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shumcode/nodelab.git"
+  },
+  "author": "Shoe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shumcode/nodelab/issues"
+  },
+  "homepage": "https://github.com/shumcode/nodelab#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

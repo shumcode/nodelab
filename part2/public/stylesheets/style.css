@@ -1,0 +1,80 @@
+.formbox {
+  margin: 150px auto;
+  display: flex;
+  border-radius: 5px;
+  flex-direction: column;
+  max-width: 355px;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+#addInput {
+  margin: 20px;
+  margin-bottom: 0px;
+  margin-top: -5px;
+  padding: 10px;
+}
+
+#submit {
+  margin-bottom: 5px;
+  margin-top: 0px;
+  margin: 20px;
+  padding: 10px;
+  background-color: #ff69b4;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+/* #submit:hover {
+  background-color: #ff1493;
+} */
+
+h1 {
+  margin-bottom: 0px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid #bbb;
+}
+
+::-webkit-input-placeholder {
+  color: #bbb;
+}
+
+p {
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  margin-right: 20px;
+}
+
+#filter {
+  padding: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+li {
+  position: relative;
+  margin-right: 30px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(to right, #f857a6, #ff5858);
+}
+
+.material-icons.md-18 {
+  padding-right: 5px;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
